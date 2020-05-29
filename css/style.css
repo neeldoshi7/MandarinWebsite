@@ -191,8 +191,8 @@ body {
 /* KnowMore page */
 .knowmore-illustration{
     position: absolute;
-    top: 16.224vw;
-    right: 8.854vw;
+    top: 13.224vw;
+    right: 3.854vw;
     width: 39.531vw;
     height: 25.573vw;
 }
@@ -280,6 +280,7 @@ color: #FFFFFF;
 opacity: 1;
 }
 .teacherdiv{
+  margin-top: 2vw;
   margin-left: 8.854vw;
 }
 .teacherimg{
@@ -301,7 +302,7 @@ opacity: 1;
 }
 
 .knowmore-text{
-  padding-top: 20vw;
+  padding-top: 30vw;
   /* padding-left: 8.854vw; */
   margin: auto;
   text-align: center;
@@ -312,6 +313,7 @@ opacity: 1;
 }
 
 .knowmore-sub-text{
+  padding-top: 5vw;
 text-align: center;
 font-size: 4vw;
 color: #FFFFFF;
@@ -348,7 +350,7 @@ border-radius: 30px;
 opacity: 1;
 }
 .price{
-margin-top: 2.656vw;
+padding-top: 12.656vw;
 font-weight: bold;
 font-size: 8vw;
 letter-spacing: 0px;
@@ -376,7 +378,7 @@ opacity: 1;
 
 .Main-text{
   margin: auto;
-  margin-top: 10vw;
+  margin-top: 20vw;
   text-align: center;
   font-weight: 800;
   font-size: 10vw;
@@ -385,6 +387,8 @@ color: #FFFFFF;
 opacity: 1;
 }
 .teacherdiv{
+  margin-top: 0vw;
+  padding-top: 15vw;
   margin: auto;
 }
 .teacherimg{
