@@ -269,6 +269,27 @@ color: #FFFFFF;
 opacity: 1;
 }
 
+.Main-text{
+  margin-top: 5.063vw;
+  margin-left: 8.854vw;
+  text-align: left;
+  font-weight: 800;
+  font-size: 2.188vw;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.teacherdiv{
+  margin-left: 8.854vw;
+}
+.teacherimg{
+  height: 13.021vw;
+  width: 13.021vw;
+  /* background: transparent url('Assets/teacher1.png') 0% 0% no-repeat padding-box; */
+/* border: 5px solid #E2EAF2; */
+opacity: 1;
+}
+
 @media (max-width: 896px) {
 
 .knowmore-illustration{
@@ -353,5 +374,25 @@ color: #FFFFFF;
 opacity: 1;
 }
 
+.Main-text{
+  margin: auto;
+  margin-top: 10vw;
+  text-align: center;
+  font-weight: 800;
+  font-size: 10vw;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.teacherdiv{
+  margin: auto;
+}
+.teacherimg{
+    display: block;
+  margin: auto;
+  height: 56.818vw;
+  width: 56.818vw;
+opacity: 1;
+}
 
 }
