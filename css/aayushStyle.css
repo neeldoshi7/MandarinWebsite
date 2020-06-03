@@ -1,0 +1,188 @@
+body {
+  background-color: #222426;
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+}
+
+.bg-wave {
+  top:0;
+  left:0;
+  width: auto;
+  height: auto;
+  background: transparent url('img/XMLID_67_.png') 0 0 no-repeat padding-box;
+  position:absolute;
+  opacity: 0.7;
+  z-index: -5;
+}
+
+/* Navigation Bar */
+
+.logo {
+  padding: 0 0;
+  position: relative;
+  width: 19.125vw;
+  height: 6.250vw;
+}
+
+.navbar-toggler {
+  border: 0;
+}
+
+.navigation-bar {
+  padding-left: 8.854vw;
+  padding-right: 8.854vw;
+}
+
+.nav-link{
+  color: #fff !important;
+  font-weight: 700;
+  font-size: 1.563vw;
+}
+
+.signup-button {
+  padding: 0;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.563vw;
+  width: 10.417vw;
+  height: 2.604vw;
+  background: transparent linear-gradient(103deg, #005C97 0, #363795 100%) 0 0 no-repeat padding-box;
+  border-radius: 30px;
+  opacity: 1;
+  margin-right: 15px;
+}
+
+.login-button {
+  padding: 0;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.302vw;
+  width: 10.156vw;
+  height: 2.344vw;
+  border: 0.260vw solid #FFFFFF;
+  border-radius: 30px;
+  opacity: 1;
+}
+
+/* Body */
+
+.main-text {
+  padding-top: 11.979vw;
+  padding-left: 8.854vw;
+  text-align: left;
+  color: #fff;
+  font-weight: 800;
+  font-size: 4.167vw;
+  line-height: 1.2;
+}
+
+.emphasized-text {
+  font-weight: 900;
+  color: #E6C229;
+}
+
+.know-button {
+  width: 15.208vw;
+  height: 4.167vw;
+  position: relative;
+  left: 8.854vw;
+  background: transparent linear-gradient(104deg, #005C97 0, #363795 100%) 0 0 no-repeat padding-box;
+  border-radius: 40px;
+  opacity: 1;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.875vw;
+}
+
+.sub-text {
+  position: relative;
+  padding-left: 9.323vw;
+  color: #fff;
+  font-size: 0.885vw;
+  font-weight: 300;
+}
+
+.sub-emphasized {
+  color: #E6C229;
+  font-weight: 500;
+}
+
+.home-illustration {
+  position: absolute;
+  top: 16.224vw;
+  right: 8.854vw;
+  width: 39.531vw;
+  height: 25.573vw;
+}
+
+@media (max-width: 896px) {
+  .bg-wave {
+    width: auto;
+    height: auto;
+  }
+
+  .nav-link{
+    color: #fff !important;
+    font-size: 4.797vw;
+  }
+
+  .signup-button {
+    padding: 0;
+    font-size: 4.106vw;
+    width: 41.063vw;
+    height: 10.870vw;
+  }
+
+  .login-button {
+    padding: 0;
+    font-size: 4.106vw;
+    width: 41.063vw;
+    height: 10.870vw;
+    border: 1.208vw solid #FFFFFF;
+  }
+
+  .logo {
+    width: 40.580vw;
+    height: 13.285vw;
+  }
+  .navigation-bar {
+    padding-left: 4.831vw;
+    padding-right: 4.831vw;
+  }
+  .home-illustration {
+    position: relative;
+    top: 11.161vw;
+    left: 9.140vw;
+    width: 81.722vw;
+    height: 52.853vw;
+  }
+  .main-text {
+    padding-top: 25vw;
+    padding-left: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 8.696vw;
+    line-height: 1.2;
+  }
+
+  .know-button {
+    width: 41.063vw;
+    height: 10.870vw;
+    position: relative;
+    left: 29.469vw;
+    background: transparent linear-gradient(104deg, #005C97 0, #363795 100%) 0 0 no-repeat padding-box;
+    border-radius: 40px;
+    opacity: 1;
+    color: #fff;
+    font-weight: 700;
+    font-size: 4.106vw;
+  }
+
+  .sub-text {
+    position: relative;
+    padding-left: 26.014vw;
+    color: #fff;
+    font-size: 3.140vw;
+    font-weight: 300;
+  }
+}

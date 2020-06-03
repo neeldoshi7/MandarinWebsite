@@ -1,0 +1,45 @@
+.aboutimgdiv{
+  margin-left: 8.854vw;
+}
+.aboutimg{
+  height: 13.021vw;
+  width: 13.021vw;
+}
+.abouttextdiv{
+  margin-top: 2vw;
+  width: 70vw;
+}
+.vision-sub-text{
+margin-left: 8.854vw;
+width: 60vw;
+text-align: left;
+font-size: 0.885vw;
+color: #FFFFFF;
+opacity: 1;
+}
+
+@media (max-width: 896px){
+  .aboutimgdiv{
+    margin: auto;
+  }
+  .aboutimg{
+    display: block;
+    margin: auto;
+    margin-top: 10vw;
+    height: 60.386vw;
+    width: 60.386vw;
+  }
+  .abouttextdiv{
+    margin-top: 5vw;
+    text-align: center;
+  }
+  .vision-sub-text{
+  padding-top: 5vw;
+  width: 100vw;
+  margin: auto;
+  text-align: center;
+  font-size: 4vw;
+  color: #FFFFFF;
+  opacity: 1;
+  }
+}

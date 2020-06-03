@@ -1,0 +1,189 @@
+.contact-illustration {
+  position: absolute;
+  top: 10.183vw;
+  right: 8.854vw;
+  width: 42.301vw;
+  height: 16.848vw;
+  background: transparent url('img/undraw_contact_us_15o2 (1).png') 0 0 no-repeat padding-box;
+  opacity: 1;
+}
+
+.contact-heading {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.875vw;
+  position: relative;
+  top: 6.771vw;
+  padding-left: 8.854vw;
+}
+
+.email {
+  position: relative;
+  top: 6.9vw;
+  padding-left: 8.854vw;
+  font-size: 0.885vw;
+}
+
+.email-head, .phone-head, .address-head {
+  font-weight: 700;
+}
+
+.email-text, .phone-text, .address-text {
+  font-weight: 300;
+}
+
+.phone {
+  position: relative;
+  top: 4.2vw;
+  padding-left: 20.469vw;
+  font-size: 0.885vw;
+}
+
+.address {
+  position: relative;
+  top: 5.729vw;
+  padding-left: 8.854vw;
+  font-size: 0.885vw;
+}
+
+.form-group {
+  position: relative;
+  top: 10.417vw;
+  padding-left: 8.854vw;
+}
+
+.name-label, .email-label, .subject-label, .message-label {
+  font-weight: 700;
+  font-size: 0.885vw;
+}
+
+.email-label, .email-input {
+  position: relative;
+  top: 0.781vw;
+}
+
+.subject-label, .subject-input {
+  position: relative;
+  top: 1.5vw;
+}
+
+.name-input, .email-input, .subject-input {
+  z-index: 100;
+  width: 17.448vw;
+  height: 2.604vw;
+  font-size: 0.885vw;
+  font-weight: 300;
+  background: #FFFFFF 0 0 no-repeat padding-box;
+  border: 0;
+  border-radius: 30px;
+  opacity: 1;
+}
+
+.message-label {
+  margin-bottom: 0.556vw;
+}
+
+.message-text {
+  width: 20.208vw;
+  height: 9.271vw;
+  font-weight: 300;
+  font-size: 0.885vw;
+  padding: 1.042vw;
+  background: #FFFFFF 0 0 no-repeat padding-box;
+  border: 0;
+  border-radius: 30px;
+  opacity: 1;
+}
+
+.message-form {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  padding-left: 30.740vw;
+}
+
+.submit-button {
+  position: absolute;
+  top: 13.1vw;
+  left: 44.667vw;
+  padding: 0;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.563vw;
+  width: 10.417vw;
+  height: 2.604vw;
+  background: transparent linear-gradient(103deg, #005C97 0, #363795 100%) 0 0 no-repeat padding-box;
+  border-radius: 30px;
+  opacity: 1;
+}
+
+@media (max-width: 896px) {
+  body {
+    text-align: center;
+  }
+
+  .contact-illustration {
+    position: relative;
+    top: 24.155vw;
+    left: 0.5vw;
+    width: 78.502vw;
+    height: 31.401vw;
+  }
+
+  .contact-heading {
+    position: relative;
+    top: 40.478vw;
+    font-size: 5.797vw;
+    padding-left: 0;
+  }
+
+  .email, .phone, .address {
+    font-size: 4.106vw;
+    margin-top: 2.415vw;
+    top: 40.816vw;
+    padding-left: 0;
+  }
+
+  .message-form, .submit-button {
+    position: relative;
+    padding-left: 0
+  }
+
+
+  .name-label, .email-label, .subject-label, .message-label, .email-input, .subject-input, .name-input, .message-text, .submit-button {
+    position: relative;
+    font-size: 5.797vw;
+    top: 48.309vw;
+  }
+
+  .name-label, .email-label, .subject-label, .message-label {
+    right: 4.5vw;
+  }
+
+  .name-input, .email-input, .subject-input {
+    width: 60.386vw;
+    height: 12.077vw;
+    left: 7vw;
+    margin-bottom: 1.932vw;
+  }
+
+  .message-text {
+    width: 90.338vw;
+    height: 42.995vw;
+    right: 9.5vw;
+    padding: 4.831vw;
+  }
+
+  .message-text::placeholder {
+    font-size: 4.106vw;
+  }
+
+  .submit-button {
+    display: block;
+    margin: auto;
+    width: 41.063vw;
+    height: 10.870vw;
+    left: 0;
+    font-size: 4.106vw;
+  }
+}
