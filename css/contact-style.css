@@ -170,8 +170,10 @@
   .message-text {
     width: 90.338vw;
     height: 42.995vw;
-    right: 9.5vw;
     padding: 4.831vw;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
   }
 
   .message-text::placeholder {
