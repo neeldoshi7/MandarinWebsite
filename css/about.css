@@ -32,6 +32,7 @@ opacity: 1;
   .abouttextdiv{
     margin-top: 5vw;
     text-align: center;
+    width: 75.942vw;
   }
   .vision-sub-text{
   padding-top: 5vw;
@@ -42,4 +43,10 @@ opacity: 1;
   color: #FFFFFF;
   opacity: 1;
   }
+  /* .knowmore-sub-text{
+  text-align: left;
+  font-size: 0.885vw;
+  color: #FFFFFF;
+  opacity: 1;
+  } */
 }
