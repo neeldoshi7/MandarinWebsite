@@ -185,5 +185,8 @@
     height: 10.870vw;
     left: 0;
     font-size: 4.106vw;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
   }
 }
