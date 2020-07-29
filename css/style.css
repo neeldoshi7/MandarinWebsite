@@ -6,11 +6,11 @@ body {
 
 .bg-wave {
   top: 0;
-    left: 0;
-    width: auto;
-    height: auto;
-    position: absolute;
-    z-index: -5;
+  left: 0;
+  width: auto;
+  height: auto;
+  position: absolute;
+  z-index: -5;
 }
 
 /* Navigation Bar */
@@ -18,22 +18,24 @@ body {
 .logo {
   padding: 0 0;
   position: relative;
-  /* top: 1.851%;
-  left: 8.85%; */
   width: 19.125vw;
-  height: 6.250vw;
+  height: 6.25vw;
 }
 
 .navbar-toggler {
   border: 0;
 }
 
-.navigation-bar {
-  padding-left: 8.85%;
-  padding-right: 8.85%;
+.navbar-collapse {
+  text-align: center;
 }
 
-.nav-link{
+.navigation-bar {
+  padding-left: 8.854vw;
+  padding-right: 8.854vw;
+}
+
+.nav-link {
   color: #222426 !important;
   font-weight: 700;
   font-size: 1.563vw;
@@ -74,7 +76,6 @@ body {
   padding-top: 11.979vw;
   padding-left: 8.854vw;
   text-align: left;
-  color: #fff;
   font-weight: 800;
   font-size: 4.167vw;
   line-height: 1.2;
@@ -86,32 +87,30 @@ body {
 }
 
 .know-button {
-  .know-button {
-    width: 15.208vw;
-    height: 4.167vw;
-    position: relative;
-    left: 8.854vw;
-    background: transparent linear-gradient(104deg, #003796 0%, #16005e 100%) 0%
-      0% no-repeat padding-box;
-    box-shadow: 0px 5px 20px #181e1f33;
-    border-radius: 40px;
-    opacity: 1;
-    margin-right: 15px;
-    color: #fff;
-    font-weight: 700;
-    font-size: 1.875vw;
+  width: 15.208vw;
+  height: 4.167vw;
+  position: relative;
+  left: 8.854vw;
+  background: transparent linear-gradient(104deg, #003796 0%, #16005e 100%) 0%
+    0% no-repeat padding-box;
+  box-shadow: 0px 5px 20px #181e1f33;
+  border-radius: 40px;
+  opacity: 1;
+  margin-right: 15px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.875vw;
 }
 
 .sub-text {
   position: relative;
   padding-left: 9.323vw;
-  color: #fff;
   font-size: 0.885vw;
   font-weight: 300;
 }
 
 .sub-emphasized {
-  color: #E6C229;
+  color: #16005e;
   font-weight: 500;
 }
 
@@ -123,14 +122,101 @@ body {
   height: 25.573vw;
 }
 
-@media (max-width: 896px) {
-  .bg-wave {
-    width: auto;
-    height: auto;
-  }
+.study svg,
+.features svg {
+  fill: #16005e;
+}
 
-  .nav-link{
-    color: #fff !important;
+#content {
+  text-align: center;
+  position: relative;
+  top: 18.945vw;
+}
+
+.text {
+  font-size: 3.646vw;
+  font-weight: 800;
+  margin-bottom: 2.604vw;
+}
+
+.laptop {
+  width: 7.813vw;
+  height: 5.99vw;
+}
+
+.phone {
+  margin-left: 5.208vw;
+  width: 3.75vw;
+  height: 5.99vw;
+}
+
+.web,
+.mobile {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 2.083vw;
+  font-size: 3.125vw;
+  font-weight: 700;
+}
+
+.home {
+  width: 6.563vw;
+  height: 7.813vw;
+}
+
+.features {
+  position: relative;
+  top: 18.229vw;
+}
+
+.home-content,
+.hour-content,
+.assignment-content {
+  font-size: 1.667vw;
+  font-weight: 600;
+}
+
+.hourglass {
+  width: 6.25vw;
+  height: 7.813vw;
+}
+
+.assignment {
+  width: 7.813vw;
+  height: 7.813vw;
+}
+
+.know-more {
+  position: relative;
+  top: 24.635vw;
+}
+
+.end-button {
+  width: 26.042vw;
+  height: 4.167vw;
+  color: #fff;
+  font-size: 1.875vw;
+  font-weight: 700;
+
+  background: transparent linear-gradient(98deg, #003796 0%, #16005e 100%) 0% 0%
+    no-repeat padding-box;
+  box-shadow: 0px 5px 20px #181e1f33;
+  border-radius: 40px;
+  opacity: 1;
+
+  margin-bottom: 12.5rem;
+}
+
+.end-wave {
+  width: auto;
+  height: auto;
+  position: absolute;
+  transform: rotate(180deg);
+  z-index: -5;
+}
+
+@media (max-width: 896px) {
+  .nav-link {
     font-size: 4.797vw;
   }
 
@@ -138,19 +224,19 @@ body {
     padding: 0;
     font-size: 4.106vw;
     width: 41.063vw;
-    height: 10.870vw;
+    height: 10.87vw;
   }
 
   .login-button {
     padding: 0;
     font-size: 4.106vw;
     width: 41.063vw;
-    height: 10.870vw;
-    border: 1.208vw solid #FFFFFF;
+    height: 10.87vw;
+    border: 1.208vw solid #222426;
   }
 
   .logo {
-    width: 40.580vw;
+    width: 40.58vw;
     height: 13.285vw;
   }
   .navigation-bar {
@@ -160,7 +246,7 @@ body {
   .home-illustration {
     position: relative;
     top: 11.161vw;
-    left: 9.140vw;
+    left: 9.14vw;
     width: 81.722vw;
     height: 52.853vw;
   }
@@ -168,19 +254,15 @@ body {
     padding-top: 25vw;
     padding-left: 0;
     text-align: center;
-    color: #fff;
     font-size: 8.696vw;
     line-height: 1.2;
   }
 
   .know-button {
     width: 41.063vw;
-    height: 10.870vw;
+    height: 10.87vw;
     position: relative;
     left: 29.469vw;
-    background: transparent linear-gradient(104deg, #005C97 0, #363795 100%) 0 0 no-repeat padding-box;
-    border-radius: 40px;
-    opacity: 1;
     color: #fff;
     font-weight: 700;
     font-size: 4.106vw;
@@ -189,221 +271,56 @@ body {
   .sub-text {
     position: relative;
     padding-left: 26.014vw;
-    color: #fff;
-    font-size: 3.140vw;
+    font-size: 3.14vw;
     font-weight: 300;
   }
+
+  .text {
+      font-size: 7.2vw;
+  }
+
+  .laptop {
+    width: 15.626vw;
+    height: 11.98vw;
+  }
+
+  .phone {
+    width: 7.5vw;
+    height: 11.98vw;
+  }
+
+  .web,
+.mobile {
+  font-size: 6.25vw;
 }
 
-/* KnowMore page */
-.knowmore-illustration{
-    position: absolute;
-    top: 13.224vw;
-    right: 3.854vw;
-    width: 39.531vw;
-    height: 25.573vw;
+.home-content,
+.hour-content,
+.assignment-content {
+  font-size: 3.334vw;
+  margin-bottom: 0.521vw;
 }
 
-.knowmorediv{
-margin-left: 8.854vw;
-width: 28.906vw;
+.home {
+    width: 13.126vw;
+    height: 15.626vw;
+  }
+
+.hourglass {
+  width: 12.5vw;
+  height: 15.626vw;
 }
 
-.knowmore-text{
-  margin-top: 8.063vw;
-  margin-left: 8.854vw;
-  text-align: left;
-  color: #fff;
-  font-weight: 800;
-  font-size: 2.188vw;
-  line-height: 1.2;
+.assignment {
+  width: 15.626vw;
+  height: 15.626vw;
 }
 
-.knowmore-sub-text{
-text-align: left;
-font-size: 0.885vw;
-color: #FFFFFF;
-opacity: 1;
-}
-
-.pricingplan-text{
-  margin-top: 5.063vw;
-  margin-left: 8.854vw;
-  text-align: left;
-  font-weight: 800;
-  font-size: 2.188vw;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-}
-.tileDiv{
-  margin-top: 1.563vw;
-  margin-left: 6.25vw;
-}
-.tile{
-  display:inline-block;
-  margin-left: 2.604vw;
-  height: 11.458vw;
-  width: 11.458vw;
-  background: transparent linear-gradient(135deg, #005C97 0%, #363795 100%) 0% 0% no-repeat padding-box;
-border-radius: 30px;
-opacity: 1;
-}
-.price{
-margin-top: 2.656vw;
-font-weight: bold;
-font-size: 2vw;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-text-align: center;
-}
-
-.month{
-  text-align: center;
-font-weight: lighter;
-font-size: 0.885vw;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-}
-
-.level{
-  text-align: center;
-font: Medium 1.302vw;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-}
-
-.Main-text{
-  margin-top: 5.063vw;
-  margin-left: 8.854vw;
-  text-align: left;
-  font-weight: 800;
-  font-size: 2.188vw;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-}
-.teacherdiv{
-  margin-top: 2vw;
-  margin-left: 8.854vw;
-}
-.teacherimg{
-  height: 13.021vw;
-  width: 13.021vw;
-  /* background: transparent url('Assets/teacher1.png') 0% 0% no-repeat padding-box; */
-/* border: 5px solid #E2EAF2; */
-opacity: 1;
-}
-
-@media (max-width: 896px) {
-
-.knowmore-illustration{
-  position: relative;
-  top: 11.161vw;
-  left: 9.140vw;
-  width: 81.722vw;
-  height: 52.853vw;
-}
-
-.knowmore-text{
-  padding-top: 30vw;
-  /* padding-left: 8.854vw; */
-  margin: auto;
-  text-align: center;
-  color: #fff;
-  font-weight: 800;
-  font-size: 10vw;
-  line-height: 1.2;
-}
-
-.knowmore-sub-text{
-  padding-top: 5vw;
-text-align: center;
-font-size: 4vw;
-color: #FFFFFF;
-opacity: 1;
-}
-
-.knowmorediv{
-  margin: auto;
-width: 75.942vw;
-}
-
-.pricingplan-text{
-  margin: auto;
-  margin-top: 10vw;
-  text-align: center;
-  font-weight: 800;
-  font-size: 10vw;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-}
-
-.tileDiv{
-  margin: auto;
-}
-.tile{
-  display:block;
-  margin: auto;
-  margin-top: 10vw;
-  height: 53.140vw;
-  width: 53.140vw;
-  background: transparent linear-gradient(135deg, #005C97 0%, #363795 100%) 0% 0% no-repeat padding-box;
-border-radius: 30px;
-opacity: 1;
-}
-.price{
-padding-top: 12.656vw;
-font-weight: bold;
-font-size: 8vw;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-text-align: center;
-}
-
-.month{
-  text-align: center;
-font-weight: lighter;
-font-size: 4vw;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-}
-
-.level{
-  text-align: center;
-font: Medium 5.302vw;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-}
-
-.Main-text{
-  margin: auto;
-  margin-top: 20vw;
-  text-align: center;
-  font-weight: 800;
-  font-size: 10vw;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-}
-.teacherdiv{
-  margin-top: 0vw;
-  padding-top: 15vw;
-  margin: auto;
-}
-.teacherimg{
-    display: block;
-  margin: auto;
-  height: 56.818vw;
-  width: 56.818vw;
-opacity: 1;
-}
+.end-button {
+    width: 52.085vw;
+    height: 8.334vw;
+    font-size: 3.75vw;
+    margin-bottom: 12.5rem;
+  }
 
 }
