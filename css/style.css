@@ -324,3 +324,216 @@ body {
   }
 
 }
+/* Know More Page */
+
+.knowmore-illustration{
+    position: absolute;
+    top: 13.224vw;
+    right: 3.854vw;
+    width: 39.531vw;
+    height: 25.573vw;
+}
+
+.knowmorediv{
+margin-left: 8.854vw;
+width: 28.906vw;
+}
+
+.knowmore-text{
+  margin-top: 8.063vw;
+  margin-left: 8.854vw;
+  text-align: left;
+  color: #fff;
+  font-weight: 800;
+  font-size: 2.188vw;
+  line-height: 1.2;
+}
+
+.knowmore-sub-text{
+text-align: left;
+font-size: 0.885vw;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.pricingplan-text{
+  margin-top: 5.063vw;
+  margin-left: 8.854vw;
+  text-align: left;
+  font-weight: 800;
+  font-size: 2.188vw;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.tileDiv{
+  margin-top: 1.563vw;
+  margin-left: 6.25vw;
+}
+.tile{
+  display:inline-block;
+  margin-left: 2.604vw;
+  height: 11.458vw;
+  width: 11.458vw;
+  background: transparent linear-gradient(135deg, #005C97 0%, #363795 100%) 0% 0% no-repeat padding-box;
+border-radius: 30px;
+opacity: 1;
+}
+.price{
+margin-top: 2.656vw;
+font-weight: bold;
+font-size: 2vw;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+text-align: center;
+}
+
+.month{
+  text-align: center;
+font-weight: lighter;
+font-size: 0.885vw;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.level{
+  text-align: center;
+font: Medium 1.302vw;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.Main-text{
+  margin-top: 5.063vw;
+  margin-left: 8.854vw;
+  text-align: left;
+  font-weight: 800;
+  font-size: 2.188vw;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.teacherdiv{
+  margin-top: 2vw;
+  margin-left: 8.854vw;
+}
+.teacherimg{
+  height: 13.021vw;
+  width: 13.021vw;
+  /* background: transparent url('Assets/teacher1.png') 0% 0% no-repeat padding-box; */
+/* border: 5px solid #E2EAF2; */
+opacity: 1;
+}
+
+@media (max-width: 896px) {
+
+.knowmore-illustration{
+  position: relative;
+  top: 11.161vw;
+  left: 9.140vw;
+  width: 81.722vw;
+  height: 52.853vw;
+}
+
+.knowmore-text{
+  padding-top: 30vw;
+  /* padding-left: 8.854vw; */
+  margin: auto;
+  text-align: center;
+  color: #fff;
+  font-weight: 800;
+  font-size: 10vw;
+  line-height: 1.2;
+}
+
+.knowmore-sub-text{
+  padding-top: 5vw;
+text-align: center;
+font-size: 4vw;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.knowmorediv{
+  margin: auto;
+width: 75.942vw;
+}
+
+.pricingplan-text{
+  margin: auto;
+  margin-top: 10vw;
+  text-align: center;
+  font-weight: 800;
+  font-size: 10vw;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.tileDiv{
+  margin: auto;
+}
+.tile{
+  display:block;
+  margin: auto;
+  margin-top: 10vw;
+  height: 53.140vw;
+  width: 53.140vw;
+  background: transparent linear-gradient(135deg, #005C97 0%, #363795 100%) 0% 0% no-repeat padding-box;
+border-radius: 30px;
+opacity: 1;
+}
+.price{
+padding-top: 12.656vw;
+font-weight: bold;
+font-size: 8vw;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+text-align: center;
+}
+
+.month{
+  text-align: center;
+font-weight: lighter;
+font-size: 4vw;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.level{
+  text-align: center;
+font: Medium 5.302vw;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.Main-text{
+  margin: auto;
+  margin-top: 20vw;
+  text-align: center;
+  font-weight: 800;
+  font-size: 10vw;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.teacherdiv{
+  margin-top: 0vw;
+  padding-top: 15vw;
+  margin: auto;
+}
+.teacherimg{
+    display: block;
+  margin: auto;
+  height: 56.818vw;
+  width: 56.818vw;
+opacity: 1;
+}
+
+}
