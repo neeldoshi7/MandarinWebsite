@@ -41,6 +41,8 @@ opacity: 1;
     padding: 10vw;
   }
   .about-main-text {
+    padding-top: 1vw;
+    margin: auto;
     padding-left: 8.854vw;
     text-align: left;
     font-weight: 800;
