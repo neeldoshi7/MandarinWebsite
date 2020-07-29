@@ -1,17 +1,16 @@
 body {
-  background-color: #222426;
-  font-family: 'Raleway', sans-serif;
+  background-color: #e6fbff;
+  font-family: "Raleway", sans-serif;
+  color: #222426;
 }
 
 .bg-wave {
-  top:0;
-  left:0;
-  width: auto;
-  height: auto;
-  background: transparent url('img/XMLID_67_.png') 0 0 no-repeat padding-box;
-  position:absolute;
-  opacity: 0.7;
-  z-index: -5;
+  top: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+    position: absolute;
+    z-index: -5;
 }
 
 /* Navigation Bar */
@@ -35,7 +34,7 @@ body {
 }
 
 .nav-link{
-  color: #fff !important;
+  color: #222426 !important;
   font-weight: 700;
   font-size: 1.563vw;
 }
@@ -47,20 +46,24 @@ body {
   font-size: 1.563vw;
   width: 10.417vw;
   height: 2.604vw;
-  background: transparent linear-gradient(103deg, #005C97 0, #363795 100%) 0 0 no-repeat padding-box;
-  border-radius: 30px;
+  background: transparent linear-gradient(104deg, #003796 0%, #16005e 100%) 0%
+    0% no-repeat padding-box;
+  box-shadow: 0px 5px 20px #181e1f33;
+  border-radius: 40px;
   opacity: 1;
   margin-right: 15px;
 }
 
 .login-button {
   padding: 0;
-  color: #fff;
+  color: #222426;
   font-weight: 700;
   font-size: 1.302vw;
   width: 10.156vw;
   height: 2.344vw;
-  border: 0.260vw solid #FFFFFF;
+  border: 5px solid var(--unnamed-color-222426);
+  box-shadow: 0px 10px 40px #181e1f33;
+  border: 5px solid #222426;
   border-radius: 30px;
   opacity: 1;
 }
@@ -79,20 +82,24 @@ body {
 
 .emphasized-text {
   font-weight: 900;
-  color: #E6C229;
+  color: #16005e;
 }
 
 .know-button {
-  width: 15.208vw;
-  height: 4.167vw;
-  position: relative;
-  left: 8.854vw;
-  background: transparent linear-gradient(104deg, #005C97 0, #363795 100%) 0 0 no-repeat padding-box;
-  border-radius: 40px;
-  opacity: 1;
-  color: #fff;
-  font-weight: 700;
-  font-size: 1.875vw;
+  .know-button {
+    width: 15.208vw;
+    height: 4.167vw;
+    position: relative;
+    left: 8.854vw;
+    background: transparent linear-gradient(104deg, #003796 0%, #16005e 100%) 0%
+      0% no-repeat padding-box;
+    box-shadow: 0px 5px 20px #181e1f33;
+    border-radius: 40px;
+    opacity: 1;
+    margin-right: 15px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.875vw;
 }
 
 .sub-text {
