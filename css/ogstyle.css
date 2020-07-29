@@ -1,15 +1,16 @@
 body {
-  background-color: #e6fbff;
-  font-family: "Raleway", sans-serif;
-  color: #222426;
+  background-color: #222426;
+  font-family: 'Raleway', sans-serif;
 }
 
 .bg-wave {
-  top: 0;
-  left: 0;
+  top:0;
+  left:0;
   width: auto;
   height: auto;
-  position: absolute;
+  background: transparent url('img/XMLID_67_.png') 0 0 no-repeat padding-box;
+  position:absolute;
+  opacity: 0.7;
   z-index: -5;
 }
 
@@ -18,25 +19,23 @@ body {
 .logo {
   padding: 0 0;
   position: relative;
+  /* top: 1.851%;
+  left: 8.85%; */
   width: 19.125vw;
-  height: 6.25vw;
+  height: 6.250vw;
 }
 
 .navbar-toggler {
   border: 0;
 }
 
-.navbar-collapse {
-  text-align: center;
-}
-
 .navigation-bar {
-  padding-left: 8.854vw;
-  padding-right: 8.854vw;
+  padding-left: 8.85%;
+  padding-right: 8.85%;
 }
 
-.nav-link {
-  color: #222426 !important;
+.nav-link{
+  color: #fff !important;
   font-weight: 700;
   font-size: 1.563vw;
 }
@@ -48,24 +47,20 @@ body {
   font-size: 1.563vw;
   width: 10.417vw;
   height: 2.604vw;
-  background: transparent linear-gradient(104deg, #003796 0%, #16005e 100%) 0%
-    0% no-repeat padding-box;
-  box-shadow: 0px 5px 20px #181e1f33;
-  border-radius: 40px;
+  background: transparent linear-gradient(103deg, #005C97 0, #363795 100%) 0 0 no-repeat padding-box;
+  border-radius: 30px;
   opacity: 1;
   margin-right: 15px;
 }
 
 .login-button {
   padding: 0;
-  color: #222426;
+  color: #fff;
   font-weight: 700;
   font-size: 1.302vw;
   width: 10.156vw;
   height: 2.344vw;
-  border: 5px solid var(--unnamed-color-222426);
-  box-shadow: 0px 10px 40px #181e1f33;
-  border: 5px solid #222426;
+  border: 0.260vw solid #FFFFFF;
   border-radius: 30px;
   opacity: 1;
 }
@@ -76,6 +71,7 @@ body {
   padding-top: 11.979vw;
   padding-left: 8.854vw;
   text-align: left;
+  color: #fff;
   font-weight: 800;
   font-size: 4.167vw;
   line-height: 1.2;
@@ -83,7 +79,7 @@ body {
 
 .emphasized-text {
   font-weight: 900;
-  color: #16005e;
+  color: #E6C229;
 }
 
 .know-button {
@@ -91,12 +87,9 @@ body {
   height: 4.167vw;
   position: relative;
   left: 8.854vw;
-  background: transparent linear-gradient(104deg, #003796 0%, #16005e 100%) 0%
-    0% no-repeat padding-box;
-  box-shadow: 0px 5px 20px #181e1f33;
+  background: transparent linear-gradient(104deg, #005C97 0, #363795 100%) 0 0 no-repeat padding-box;
   border-radius: 40px;
   opacity: 1;
-  margin-right: 15px;
   color: #fff;
   font-weight: 700;
   font-size: 1.875vw;
@@ -105,12 +98,13 @@ body {
 .sub-text {
   position: relative;
   padding-left: 9.323vw;
+  color: #fff;
   font-size: 0.885vw;
   font-weight: 300;
 }
 
 .sub-emphasized {
-  color: #16005e;
+  color: #E6C229;
   font-weight: 500;
 }
 
@@ -122,101 +116,14 @@ body {
   height: 25.573vw;
 }
 
-.study svg,
-.features svg {
-  fill: #16005e;
-}
-
-#content {
-  text-align: center;
-  position: relative;
-  top: 18.945vw;
-}
-
-.text {
-  font-size: 3.646vw;
-  font-weight: 800;
-  margin-bottom: 2.604vw;
-}
-
-.laptop {
-  width: 7.813vw;
-  height: 5.99vw;
-}
-
-.phone {
-  margin-left: 5.208vw;
-  width: 3.75vw;
-  height: 5.99vw;
-}
-
-.web,
-.mobile {
-  display: inline-block;
-  vertical-align: middle;
-  margin-left: 2.083vw;
-  font-size: 3.125vw;
-  font-weight: 700;
-}
-
-.home {
-  width: 6.563vw;
-  height: 7.813vw;
-}
-
-.features {
-  position: relative;
-  top: 18.229vw;
-}
-
-.home-content,
-.hour-content,
-.assignment-content {
-  font-size: 1.667vw;
-  font-weight: 600;
-}
-
-.hourglass {
-  width: 6.25vw;
-  height: 7.813vw;
-}
-
-.assignment {
-  width: 7.813vw;
-  height: 7.813vw;
-}
-
-.know-more {
-  position: relative;
-  top: 24.635vw;
-}
-
-.end-button {
-  width: 26.042vw;
-  height: 4.167vw;
-  color: #fff;
-  font-size: 1.875vw;
-  font-weight: 700;
-
-  background: transparent linear-gradient(98deg, #003796 0%, #16005e 100%) 0% 0%
-    no-repeat padding-box;
-  box-shadow: 0px 5px 20px #181e1f33;
-  border-radius: 40px;
-  opacity: 1;
-
-  margin-bottom: 12.5rem;
-}
-
-.end-wave {
-  width: auto;
-  height: auto;
-  position: absolute;
-  transform: rotate(180deg);
-  z-index: -5;
-}
-
 @media (max-width: 896px) {
-  .nav-link {
+  .bg-wave {
+    width: auto;
+    height: auto;
+  }
+
+  .nav-link{
+    color: #fff !important;
     font-size: 4.797vw;
   }
 
@@ -224,19 +131,19 @@ body {
     padding: 0;
     font-size: 4.106vw;
     width: 41.063vw;
-    height: 10.87vw;
+    height: 10.870vw;
   }
 
   .login-button {
     padding: 0;
     font-size: 4.106vw;
     width: 41.063vw;
-    height: 10.87vw;
-    border: 1.208vw solid #222426;
+    height: 10.870vw;
+    border: 1.208vw solid #FFFFFF;
   }
 
   .logo {
-    width: 40.58vw;
+    width: 40.580vw;
     height: 13.285vw;
   }
   .navigation-bar {
@@ -246,7 +153,7 @@ body {
   .home-illustration {
     position: relative;
     top: 11.161vw;
-    left: 9.14vw;
+    left: 9.140vw;
     width: 81.722vw;
     height: 52.853vw;
   }
@@ -254,15 +161,19 @@ body {
     padding-top: 25vw;
     padding-left: 0;
     text-align: center;
+    color: #fff;
     font-size: 8.696vw;
     line-height: 1.2;
   }
 
   .know-button {
     width: 41.063vw;
-    height: 10.87vw;
+    height: 10.870vw;
     position: relative;
     left: 29.469vw;
+    background: transparent linear-gradient(104deg, #005C97 0, #363795 100%) 0 0 no-repeat padding-box;
+    border-radius: 40px;
+    opacity: 1;
     color: #fff;
     font-weight: 700;
     font-size: 4.106vw;
@@ -271,61 +182,13 @@ body {
   .sub-text {
     position: relative;
     padding-left: 26.014vw;
-    font-size: 3.14vw;
+    color: #fff;
+    font-size: 3.140vw;
     font-weight: 300;
   }
-
-  .text {
-      font-size: 7.2vw;
-  }
-
-  .laptop {
-    width: 15.626vw;
-    height: 11.98vw;
-  }
-
-  .phone {
-    width: 7.5vw;
-    height: 11.98vw;
-  }
-
-  .web,
-.mobile {
-  font-size: 6.25vw;
 }
 
-.home-content,
-.hour-content,
-.assignment-content {
-  font-size: 3.334vw;
-  margin-bottom: 0.521vw;
-}
-
-.home {
-    width: 13.126vw;
-    height: 15.626vw;
-  }
-
-.hourglass {
-  width: 12.5vw;
-  height: 15.626vw;
-}
-
-.assignment {
-  width: 15.626vw;
-  height: 15.626vw;
-}
-
-.end-button {
-    width: 52.085vw;
-    height: 8.334vw;
-    font-size: 3.75vw;
-    margin-bottom: 12.5rem;
-  }
-
-}
-/* Know More Page */
-
+/* KnowMore page */
 .knowmore-illustration{
     position: absolute;
     top: 13.224vw;
@@ -413,7 +276,7 @@ opacity: 1;
   font-weight: 800;
   font-size: 2.188vw;
 letter-spacing: 0px;
-/* color: #FFFFFF; */
+color: #FFFFFF;
 opacity: 1;
 }
 .teacherdiv{
